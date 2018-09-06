@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入addUserSync()" />
+
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入addUserASync()" />
+
+    <Button
+        android:id="@+id/btn_test10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入addUser()" />
+
+
+    <Button
+        android:id="@+id/btn_test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入EventBus_Main_AddUserSync()" />
+
+    <Button
+        android:id="@+id/btn_test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入EventBus_Main_AddUserASync()" />
+
+    <Button
+        android:id="@+id/btn_test11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入EventBus_Main_AddUser()" />
+
+    <Button
+        android:id="@+id/btn_test5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入EventBus_BACKGROUND_AddUserSync()" />
+
+    <Button
+        android:id="@+id/btn_test6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入EventBus_BACKGROUND_AddUserASync()" />
+
+    <Button
+        android:id="@+id/btn_test12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试数据库写入EventBus_BACKGROUND_AddUser()" />
+
+    <Button
+        android:id="@+id/btn_test7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除数据库并压缩数据库文件大小" />
+
+    <Button
+        android:id="@+id/btn_get_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取数据库句柄" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
